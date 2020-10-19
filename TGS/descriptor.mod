@@ -11,4 +11,4 @@ tags={
 }
 name="The Gates of Versailles - Submod"
 supported_version="1.10.1"
-path="C:/Users/UTILISATEUR/Documents/Paradox Interactive/Hearts of Iron IV/mod/TGS"
+path="mod/TGS"
