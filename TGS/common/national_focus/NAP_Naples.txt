@@ -1,0 +1,16 @@
+focus_tree = {
+	id = NAP_main_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NAP
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 4500 }
+	
+	shared_focus = NAP_revival
+
+}
