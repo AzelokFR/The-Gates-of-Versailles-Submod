@@ -1,0 +1,17 @@
+spriteTypes = {
+    
+	SpriteType = {
+	    name = "GFX_goal_NAP_eco_revival"
+		texturefile = "gfx/interface/goals/generic_liberal.dds"
+	}
+
+	SpriteType = {
+	    name = "GFX_goal_NAP_Calabria_dev"
+		texturefile = "gfx/interface/goals/goal_generic_construct_civilian.dds"
+	}
+
+	SpriteType = {
+	    name = "GFX_goal_NAP_Calabria_invest"
+		texturefile = "gfx/interface/goals/goal_generic_construct_infrastructure.dds"
+	}
+}

@@ -1,0 +1,61 @@
+﻿l_english:
+ ###FOCUS###
+ NAP_revival:0 "The Revival of our Economie"
+ NAP_revival_desc:0 "If we want the Kingdom of the Two Sicilies to be a European power, we must have an economy worthy of this rank."
+ NAP_campania_invest:0 "Investment in Campagnia"
+ NAP_campania_invest_desc:0 "To begin the industrialization of our Nation, the capital region of Campagnia will receive a better civil industry in order to repair the mistakes of our predecessors. "
+ NAP_Calabria_invest:0 "Investment in Calabria"
+ NAP_Calabria_invest_desc:0 "We must not stop on such a good path, the industrialisation of the country must continue, and this time it is the region of Calabria that will benefit from it.   "
+ NAP_Calabria_dev:0 "Developing Calabria's mines"
+ NAP_Calabria_dev_desc:0 "On our road to modernity, we cannot forget our mines and exploitations, that's why our iron mines in Calabria are going to be expanded!"
+ NAP_Calabria_inf:0 "Expanding infrastructure in Calabria"
+ NAP_Calabria_inf_desc:0 "We cannot overlook the fact that a large economy requires a good rail network. And that's why we are going to extend infrastructure in Calabria"
+ NAP_new_breathe:0 "A New Economical Breathe"
+ NAP_new_breathe_desc:0 "The Kingdom of the Two Sicilies is finally a Nation with an economy worthy of its rank ! It is with pride that we can now watch our industry flourish !"
+
+ ###NAME OF NATION###
+ NAP_fascism:0 "Neapolitan State"
+ NAP_fascism_DEF:0 "the Neapolitan State"
+ NAP_democratic:0 "Neapolitanian Republic"
+ NAP_democratic_DEF:0 "the Neapolitanian Republic"
+ NAP_liberal:0 "Neapolitanian Republic"
+ NAP_liberal_DEF:0 "the Neapolitanian Republic"
+ NAP_social_democratic:0 "Neapolitanian Republic"
+ NAP_social_democratic_DEF:0 "the Neapolitanian Republic"
+ NAP_neutrality:0 "Two Sicilies"
+ NAP_neutrality_DEF:0 "the Two Sicilies"
+ NAP_monarchist:0 "Kingdom Of The Two Sicilies"
+ NAP_monarchist_DEF:0 "the Kingdom Of The Two Sicilies"
+ NAP_communism:0 "Union Of The Two Sicilies"
+ NAP_communism_DEF:0 "the Union Of The Two Sicilies"
+ NAP_fascism_ADJ:0 "Sicilian"
+ NAP_democratic_ADJ:0 "Sicilian"
+ NAP_liberal_ADJ:0 "Sicilian"
+ NAP_social_democratic_ADJ:0 "Sicilian"
+ NAP_neutrality_ADJ:0 "Sicilian"
+ NAP_monarchist_ADJ:0 "Sicilian"
+ NAP_communism_ADJ:0 "Sicilian"
+
+ ####NATIONAL IDEAS###
+ NAP_poor_economy:0 "Poor Economic Situation"
+ NAP_poor_economy_desc:0 "For a long time, the South of the peninsula has been the weakest link in the peninsula, and our time is no exception. Even today our Nation is not very industrialized and its production quality is more than mediocre."
+ NAP_poor_economy_2:0 "Average Economic Situation"
+ NAP_poor_economy_2_desc:0 "Our efforts are paying off, and our economic situation is all the better for it! Soon we will be able to be proud of our economic situation, although we still have a long way to go."
+ NAP_poor_economy_3:0 "Good Economic Situation"
+ NAP_poor_economy_3_desc:0 "We did it ! Our economic situation is now stable and profitable ! The Kingdom of the Two Sicilies will soon be the true Italian power !"
+
+ ###???###
+ nap_ita_war:0 "Third War of Italian Independence"
+ nap_ita_war_desc:0 "We are locked in the third Italian war of Independence. We must fight this alone."
+
+
+ ###Other###
+ NAP_neutrality_party:0 "House of Savoia"
+ NAP_social_democratic_party:0 "SFIO"
+ NAP_social_democratic_party_long:0 "Section Française de l'Internationale Ouvrière"
+ NAP_monarchist_party:0 "Action Française"
+ NAP_liberal_party:0 "Fédération Républicaine"
+ NAP_theocracy_party:0 "FUPC"
+ NAP_theocracy_party_long:0 "France Unie Par le Catholicisme"
+ NAP_communism_party:0 "CdJ"
+ NAP_communism_party_long:0 "Club des Jacobins"
