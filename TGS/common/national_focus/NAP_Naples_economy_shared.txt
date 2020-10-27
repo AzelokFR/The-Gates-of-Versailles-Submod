@@ -4,7 +4,7 @@
 #Modernisation of the Industry
 shared_focus = {
 	id = NAP_modernisation_industry
-		icon =  GFX_generic_constitution
+		icon =  GFX_focus_generic_industry_1
 		#prerequisite = {  focus =  }
 		#mutually_exclusive = {  focus =  }
 		x = 5
@@ -45,7 +45,7 @@ shared_focus = {
 #Connecting the Major Cities
 shared_focus = {
 	id = NAP_connecting_major_cities
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {  focus = NAP_modernisation_industry }
 		#mutually_exclusive = {  focus =  }
 		x = 3
@@ -104,7 +104,7 @@ shared_focus = {
 #An Agrarian Nation
 shared_focus = {
 	id = NAP_agrarian_nation
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {  focus = NAP_modernisation_industry }
 		mutually_exclusive = {  focus = NAP_industrialised_nation }
 		x = 6
@@ -140,7 +140,7 @@ shared_focus = {
 #An Industrialised Nation
 shared_focus = {
 	id = NAP_industrialised_nation
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {  focus = NAP_modernisation_industry }
 		mutually_exclusive = {  focus = NAP_agrarian_nation }
 		x = 8
@@ -176,7 +176,7 @@ shared_focus = {
 #Get New Mines 
 shared_focus = {
 	id = NAP_new_mines
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construction2
 		prerequisite = {  focus = NAP_connecting_major_cities }
 		#mutually_exclusive = {  focus =  }
 		x = 3
@@ -217,7 +217,7 @@ shared_focus = {
 #Investment in the Countryside 
 shared_focus = {
 	id = NAP_investment_countryside
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construction
 		prerequisite = {  focus = NAP_agrarian_nation }
 		#mutually_exclusive = {  focus =  }
 		x = 6
@@ -260,7 +260,7 @@ shared_focus = {
 #Military Industrialization 
 shared_focus = {
 	id = NAP_military_industrialization
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {  focus = NAP_industrialised_nation }
 		#mutually_exclusive = {  focus =  }
 		x = 8
@@ -303,7 +303,7 @@ shared_focus = {
 #Revitalisation of our Economy
 shared_focus = {
 	id = NAP_revitalisation_economy
-		#icon = GFX_goal_
+		icon = GFX_focus_generic_industry_2
 		prerequisite = {  focus = NAP_investment_countryside OR = NAP_military_industrialization }
 		#mutually_exclusive = {  focus =  }
 		x = 7
@@ -342,7 +342,7 @@ shared_focus = {
 #New Excavation Tools
 shared_focus = {
 	id = NAP_excavation_tools
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construction2
 		prerequisite = {  focus = NAP_new_mines OR = NAP_revitalisation_economy }
 		#mutually_exclusive = {  focus =  }
 		x = 3
@@ -382,7 +382,7 @@ shared_focus = {
 #Economic Support to Farmers
 shared_focus = {
 	id = NAP_economic_support_farmers
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = {  focus = NAP_investment_countryside }
 		prerequisite = {  focus = NAP_revitalisation_economy }
 		#mutually_exclusive = {  focus =  }
@@ -426,7 +426,7 @@ shared_focus = {
 #2nd Military Industrialisation
 shared_focus = {
 	id = NAP_2nd_military_industrialisation
-		#icon = GFX_goal_
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {  focus = NAP_military_industrialization }
 		prerequisite = {  focus = NAP_revitalisation_economy }
 		#mutually_exclusive = {  focus =  }
@@ -479,7 +479,7 @@ shared_focus = {
 #A New Economical Boost 
 shared_focus = {
 	id = NAP_economical_boost
-		#icon = GFX_goal_
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = {  focus = NAP_economic_support_farmers OR = NAP_2nd_military_industrialisation }
 		#mutually_exclusive = {  focus =  }
 		x = 7
