@@ -16,7 +16,7 @@ continuous_focus_position = { x = 0 y = 1200 }
 focus = { 
 id = FRA_thenewdream
 icon = GFX_goal_generic_territory_or_war
-x = 34
+x = 33
 y = 2
 cost = 10
 available_if_capitulated = yes 
@@ -57,7 +57,7 @@ focus = {
 focus = { 
 	id = FRA_payspainforcatalonia
 	icon = GFX_goal_generic_forceful_treaty
-	x = 37
+	x = 30
 	y = 3
 	cost = 3
 	available_if_capitulated = yes 
@@ -1222,7 +1222,7 @@ focus = {
 focus = { 
 	id = FRA_strikeatbavaria
 	icon = GFX_goal_generic_occupy_states_ongoing_war
-	x = 34
+	x = 33
 	y = 5
 	cost = 5
 	available_if_capitulated = yes 
@@ -1252,7 +1252,7 @@ focus = {
 focus = { 
 	id = FRA_operationcoeurdeallemagne
 	icon = GFX_goal_generic_occupy_states_ongoing_war
-	x = 34
+	x = 33
 	y = 6
 	cost = 15
 	available_if_capitulated = yes 
@@ -1470,7 +1470,7 @@ focus = {
 focus = { 
 	id = FRA_thegreatcampaign
 	icon = GFX_FRA_the_great_campaign
-	x = 34
+	x = 33
 	y = 3
 	cost = 10
 	available_if_capitulated = yes 
@@ -1489,7 +1489,7 @@ focus = {
 focus = { 
 	id = FRA_puppetwurtemburg
 	icon = GFX_goal_generic_occupy_states_ongoing_war
-	x = 34
+	x = 33
 	y = 4
 	cost = 5
 	available_if_capitulated = yes 
@@ -1538,7 +1538,7 @@ focus = {
 focus = { 
 id = FRA_puppetthenetherlands
 icon = GFX_goal_generic_more_territorial_claims
-x = 36
+x = 35
 y = 5
 cost = 5
 available_if_capitulated = yes 
@@ -1567,7 +1567,7 @@ ai_will_do = {
 focus = { 
 id = FRA_breachofbelgianneutrality
 icon = GFX_goal_generic_more_territorial_claims
-x = 36
+x = 35
 y = 4
 cost = 5
 available_if_capitulated = yes 
@@ -1597,8 +1597,8 @@ prerequisite = { focus = FRA_thegreatcampaign }
 focus = { 
 	id = FRA_toppleprussiangoverment
 	icon = GFX_goal_anti_comintern_pact
-	x = 34
-		y = 7
+	x = 33
+	y = 7
 	cost = 10
 	available_if_capitulated = yes 
 	prerequisite = { focus = FRA_operationcoeurdeallemagne } 
@@ -1627,7 +1627,7 @@ focus = {
 focus = { 
 id = FRA_piedmontorwar
 	icon = GFX_focus_generic_provoke_border_clashes
-	x = 32
+	x = 31
 	y = 4
 	cost = 10
 	available_if_capitulated = yes 
@@ -1672,7 +1672,7 @@ id = FRA_piedmontorwar
 focus = { 
 	id = FRA_innerfactionrarrangement
 	icon = GFX_goal_generic_national_unity
-	x = 41
+	x = 36
 	y = 3
 	cost = 5
 	available_if_capitulated = yes 
@@ -1718,8 +1718,8 @@ focus = {
 focus = { 
 	id = FRA_ultimatumtoswitzerland
 	icon = GFX_goal_generic_military_sphere
-	x = 39
-	y = 4
+	x = 36
+	y = 6
 	cost = 1
 	available_if_capitulated = yes 
 	prerequisite = { focus = FRA_innerfactionrarrangement } 
@@ -1745,7 +1745,7 @@ focus = {
 focus = { 
 	id = FRA_topplefascistregimesineurope
 	icon = GFX_focus_generic_anti_fascist_diplomacy
-	x = 32
+	x = 31
 	y = 5
 	cost = 10
 	available_if_capitulated = yes 
@@ -1772,7 +1772,7 @@ focus = {
 focus = { 
 id = FRA_endtherussianhegemony
 icon = GFX_focus_ger_strike_at_the_source
-x = 34
+x = 33
 y = 8
 cost = 10
 available_if_capitulated = yes 
@@ -1828,8 +1828,8 @@ ai_will_do = {
 focus = { 
 	id = FRA_ultimatumtobaden
 	icon = GFX_goal_generic_military_sphere
-	x = 41
-	y = 4
+	x = 37
+	y = 5
 	cost = 1
 	available_if_capitulated = yes 
 	prerequisite = { focus = FRA_innerfactionrarrangement } 
@@ -1854,7 +1854,7 @@ focus = {
 focus = { 
 	id = FRA_ultimatumtowestphalia
 	icon = GFX_goal_generic_military_sphere
-	x = 43
+	x = 38
 	y = 4
 	cost = 1
 	available_if_capitulated = yes 
@@ -1877,7 +1877,7 @@ focus = {
 focus = { 
 	id = FRA_purgethedemocraticparties
 	icon = GFX_focus_generic_strike_at_democracy3
-	x = 40
+	x = 36
 	y = 1
 	cost = 10
 	available_if_capitulated = yes 
@@ -1904,7 +1904,7 @@ focus = {
 focus = { 
 id = FRA_lasolutionradicale
 icon = GFX_focus_rom_royal_dictatorship
-x = 40
+x = 36
 y = 2
 cost = 10
 available_if_capitulated = yes 
@@ -2946,7 +2946,24 @@ focus = {
  	completion_reward = {
  	add_research_slot = 1
  	}
-} 
+}
+
+#Focus for Republican Affairs
+focus = { 
+	id = FRA_republican_affairs
+	icon = GFX_focus_fra_french_union
+	x = 50
+	y = 1
+	cost = 10
+	available_if_capitulated = yes 
+	ai_will_do = { 
+	factor = 0
+	}
+
+	completion_reward = {
+		country_event = { id = france.33 }
+	}
+}
 
 #Focus for Unfortunate Incident
 focus = { 
@@ -2972,7 +2989,7 @@ focus = {
 	icon = GFX_goal_molotov_ribbentrop_pact
 	x = 56
 	y = 1
-	cost = 10
+	cost = 3
 	available_if_capitulated = yes
 	prerequisite = { focus = FRA_unfortunateincident }
 	ai_will_do = { 
@@ -2980,7 +2997,7 @@ focus = {
 	}
 
 	completion_reward = {
-		country_event = { id = france.34 }
+		country_event = { id = france.86 }
 	}
 }
 
@@ -2999,21 +3016,6 @@ focus = {
 	}
 
 	completion_reward = {
-		create_country_leader = {
-			name = "Philippe Pétain"
-			desc = "POLITICS_PHILIPPE_PETAIN_DESC"
-			picture = "FRA_Philippe_Petain.dds"
-			expire = "1965.1.1"
-			ideology = national_conservatism
-			traits = {
-			}
-		}
-		set_politics = {
-				ruling_party = democratic
-				election_frequency = 84
-				elections_allowed = yes
-			}
-		}
 		custom_effect_tooltip = new_cabinet_tt
 			set_country_flag = FRA_petain_in_charge
 			clr_country_flag = FRA_napoleon_in_charge
@@ -3025,6 +3027,18 @@ focus = {
 					FRA_albert_dalimier_int
 				}
 			}
+		create_country_leader = {
+			name = "Philippe Pétain"
+			desc = "POLITICS_PHILIPPE_PETAIN_DESC"
+			picture = "FRA_Philippe_Petain.dds"
+			expire = "1965.1.1"
+			ideology = national_conservatism
+			traits = {}
+			}
+		}
+		set_politics = {
+				ruling_party = democratic
+			}
 	}
 
  #Focus for Democratic Council
@@ -3033,7 +3047,7 @@ focus = {
 	icon = GFX_focus_chi_reach_out_to_france
 	x = 59
 	y = 2
-	cost = 3
+	cost = 10
 	available_if_capitulated = yes 
 	prerequisite = { focus = FRA_matter_of_regency } 
 	mutually_exclusive = { focus = FRA_military_council }
@@ -3042,12 +3056,6 @@ focus = {
 	}
 
 	completion_reward = {
-		set_politics = {
-			ruling_party = liberal
-			election_frequency = 60
-			elections_allowed = yes
-			}
-		}
 		custom_effect_tooltip = new_cabinet_tt
 		hidden_effect = {
 			set_country_flag = FRA_daladier_conservative
@@ -3059,7 +3067,55 @@ focus = {
 				FRA_eugene_frot_int
 				}
 			}
+		create_country_leader = {
+			name = "Conseil National de la République Française"
+			#desc = "POLITICS_WILLY_3_DESC"
+			picture = "Portrait_FRA_CTNRF.dds"
+			expire = "1965.1.1"
+			ideology = classical_liberalism
+			traits = {}
+			}
+		}
+		set_politics = {
+			ruling_party = liberal
+			}
 	}
+
+#Focus for A Presidential Republic
+focus = { 
+	id = FRA_presidential_republic
+	icon = GFX_focus_generic_support_the_left_right
+	x = 53
+	y = 3
+	cost = 6
+	available_if_capitulated = yes
+	prerequisite = { focus = FRA_military_council }
+	ai_will_do = { 
+	factor = 0
+	}
+
+	completion_reward = {
+		country_event = { id = france.87 }
+	}
+}
+
+#Focus for A Parlementary Republic
+focus = { 
+	id = FRA_parlementary_republic
+	icon = GFX_focus_generic_treaty
+	x = 59
+	y = 3
+	cost = 3
+	available_if_capitulated = yes
+	prerequisite = { focus = FRA_democratic_council }
+	ai_will_do = { 
+	factor = 0
+	}
+
+	completion_reward = {
+		country_event = { id = france.88 }
+	}
+}
 
  #Focus for Conservative Victory
 focus = { 
@@ -3784,70 +3840,6 @@ focus = {
 		}
 	}
 }
-
- #Focus for Social Democratic Victory
-focus = { 
-	id = FRA_social_democratic_victory
-	icon = GFX_generic_social_democratic
-	x = 53
-	y = 3
-	cost = 10
-	available_if_capitulated = yes 
-	prerequisite = { focus = FRA_the_democratic_election } 
-	ai_will_do = { 
-	factor = 0
-	}
-
-	available = {
-	always = no
-	}
-
-	completion_reward = {
-		add_political_power = 50
-		if = {
-			limit = {
-				has_country_flag = fra_4years_president
-			}
-			set_politics = {
-				ruling_party = social_democratic
-				election_frequency = 48
-				elections_allowed = yes
-			}
-			else_if = {
-				limit = {
-					has_country_flag = fra_5years_president
-				}
-			}
-			set_politics = {
-				ruling_party = social_democratic
-				election_frequency = 60
-				elections_allowed = yes
-			}
-			else_if = {
-				limit = {
-					has_country_flag = fra_6years_president
-				}
-			}
-			set_politics = {
-				ruling_party = social_democratic
-				election_frequency = 72
-				elections_allowed = yes
-			}
-		}
-		set_country_flag = FRA_socdem_victory
-		custom_effect_tooltip = new_cabinet_tt
-		hidden_effect = {
-			set_country_flag = FRA_socdem_victory
-			clr_country_flag = FRA_napoleon_in_charge
-			add_ideas = {
-				FRA_leon_blum_eco
-				FRA_leon_blum_hog
-				FRA_yvon_delbos_for
-				FRA_marx_dormoy_int
-			}
-		}
-	}
- }
 
   #Focus for Leon Blum is the Right Choice
 focus = { 
