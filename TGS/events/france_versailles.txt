@@ -762,29 +762,6 @@ country_event = { #Emperor Napoléon VI is dead)
 	}
 }
 
-country_event = { #Council choice)
-	id = france.34
-	title = france.34.t
-	desc = france.34.d
-#	picture =
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = { #Option 1, Military Council)
-		name = france.34.a
-		hidden_effect = {
-			complete_national_focus = FRA_military_council
-		}
-	}
-	option = { #Option 2, Democratic Council)
-		name = france.34.b
-		hidden_effect = {
-			complete_national_focus = FRA_democratic_council
-		}
-	}
-}
-
 country_event = { #CTNRF debate about the period of a president term
 	id = france.54
 	title = france.54.t
@@ -1621,5 +1598,62 @@ country_event = { #The Results of this expedition to the Marianna Trench (same r
 
 	option = {
 		name = france.85.a #We confirmed the previous theory at least!
+	}
+}
+
+country_event = { #Matter of Regency, Council choice)
+	id = france.86
+	title = france.86.t
+	desc = france.86.d
+	picture = GFX_golden_napoleon
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Option 1, Military Council)
+		name = france.86.a
+		hidden_effect = {
+			complete_national_focus = FRA_military_council
+		}
+	}
+	option = { #Option 2, Democratic Council)
+		name = france.86.b
+		hidden_effect = {
+			complete_national_focus = FRA_democratic_council
+		}
+	}
+}
+
+country_event = { #Presidential Republic)
+	id = france.87
+	title = france.87.t
+	desc = france.87.d
+#	picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Option 1, show republican affairs)
+		name = france.87.a
+#		hidden_effect = {
+#			complete_national_focus = FRA_military_council
+#		}
+	}
+}
+
+country_event = { #Parlementary Republic)
+	id = france.88
+	title = france.88.t
+	desc = france.88.d
+#	picture =
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Option 1, show republican affairs)
+		name = france.88.a
+#		hidden_effect = {
+#			complete_national_focus = FRA_military_council
+#		}
 	}
 }
