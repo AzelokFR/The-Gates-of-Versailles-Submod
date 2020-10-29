@@ -95,10 +95,14 @@ set_popularities = {
 
 set_convoys = 50
 
+add_ideas = {
+	NAP_poor_economy
+}
+
 create_country_leader = {
-	name = "Amedeo of Aosta"
-	desc = "POLITICS_AMEDEO_OF_AOSTA_DESC"
-	picture = "Portrait_Naples_Prince_Amedeo_Duke_of_Aosta.dds"
+	name = "Joachim Murat VI"
+	desc = "POLITICS_JOACHIM_MURAT_DESC"
+	picture = "Portrait_Naples_Joachim_Murat_VI.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
