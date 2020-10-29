@@ -16,9 +16,5 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/NAP_Medium_Economy.dds"
 	}
 
-	spriteType = {
-		name = "GFX_idea_NAP_campania_invest"
-		texturefile = "gfx/interface/ideas/goal_generic_construct_civ_factory"
-	}
 }
 
