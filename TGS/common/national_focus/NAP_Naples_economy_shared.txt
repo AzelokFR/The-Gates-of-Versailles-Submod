@@ -25,8 +25,8 @@ shared_focus = {
  		}
  
  		cancel_if_invalid = yes
- 		 continue_if_invalid = no
- 		 available_if_capitulated = no
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
  
  		 complete_tooltip = {
 			
@@ -74,6 +74,7 @@ shared_focus = {
  		 }
  
  		 completion_reward = {
+
 			870 = {
 				add_building_construction = {
 					type = infrastructure
